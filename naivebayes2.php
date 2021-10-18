@@ -1,69 +1,69 @@
 <?php
-$dataIndikators = array("Laki-laki", "Perempuan", "Mahasiswa", "Bekerja", "Belum Menikah", "Sudah Menikah", "Nilai IPK = A", "Nilai IPK = B");
-$dataDiagnosas = array("Kelulusan Terlambat", "Kelulusan Tepat");
-$dataSets = array(
-	array("indikator" => "Laki-laki", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Laki-laki", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Perempuan", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Perempuan", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Laki-laki", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Laki-laki", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Perempuan", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Perempuan", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Laki-laki", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Perempuan", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "perempuan", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "perempuan", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Laki-laki", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Laki-laki", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Laki-laki", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Mahasiswa", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Bekerja", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Bekerja", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Mahasiswa", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Mahasiswa", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Bekerja", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Bekerja", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Bekerja", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Bekerja", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Mahasiswa", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Mahasiswa", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Mahasiswa", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Bekerja", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Mahasiswa", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Mahasiswa", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Belum Menikah", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Belum Menikah", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Belum Menikah", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Sudah Menikah", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Sudah Menikah", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Sudah Menikah", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Sudah Menikah", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Belum Menikah", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Belum Menikah", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Sudah Menikah", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Belum Menikah", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Belum Menikah", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Sudah Menikah", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Sudah Menikah", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Belum Menikah", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Nilai IPK = A", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Nilai IPK = A", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Nilai IPK = A", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Nilai IPK = A", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Nilai IPK = A", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Nilai IPK = B", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Nilai IPK = A", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Nilai IPK = B", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Nilai IPK = B", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Nilai IPK = B", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Nilai IPK = B", "diagnosa" => "Kelulusan Terlambat"),
-	array("indikator" => "Nilai IPK = A", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Nilai IPK = A", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Nilai IPK = A", "diagnosa" => "Kelulusan Tepat"),
-	array("indikator" => "Nilai IPK = B", "diagnosa" => "Kelulusan Terlambat"),
+$dataIndikators = ["Laki-laki", "Perempuan", "Mahasiswa", "Bekerja", "Belum Menikah", "Sudah Menikah", "Nilai IPK = A", "Nilai IPK = B"];
+$dataDiagnosas = ["Kelulusan Terlambat", "Kelulusan Tepat"];
+$dataSets = [
+	["indikator" => "Laki-laki", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Laki-laki", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Perempuan", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Perempuan", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Laki-laki", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Laki-laki", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Perempuan", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Perempuan", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Laki-laki", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Perempuan", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "perempuan", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "perempuan", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Laki-laki", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Laki-laki", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Laki-laki", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Mahasiswa", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Bekerja", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Bekerja", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Mahasiswa", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Mahasiswa", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Bekerja", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Bekerja", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Bekerja", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Bekerja", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Mahasiswa", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Mahasiswa", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Mahasiswa", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Bekerja", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Mahasiswa", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Mahasiswa", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Belum Menikah", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Belum Menikah", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Belum Menikah", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Sudah Menikah", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Sudah Menikah", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Sudah Menikah", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Sudah Menikah", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Belum Menikah", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Belum Menikah", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Sudah Menikah", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Belum Menikah", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Belum Menikah", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Sudah Menikah", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Sudah Menikah", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Belum Menikah", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Nilai IPK = A", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Nilai IPK = A", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Nilai IPK = A", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Nilai IPK = A", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Nilai IPK = A", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Nilai IPK = B", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Nilai IPK = A", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Nilai IPK = B", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Nilai IPK = B", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Nilai IPK = B", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Nilai IPK = B", "diagnosa" => "Kelulusan Terlambat"],
+	["indikator" => "Nilai IPK = A", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Nilai IPK = A", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Nilai IPK = A", "diagnosa" => "Kelulusan Tepat"],
+	["indikator" => "Nilai IPK = B", "diagnosa" => "Kelulusan Terlambat"],
 
-);
+];
 
 if($_GET){
 	$nData = count($dataSets);
@@ -71,7 +71,7 @@ if($_GET){
 	/**
 	 * P(Ci)
 	 */
-	$pCis = array();
+	$pCis = [];
 	foreach($dataDiagnosas as $keyDiagnosa => $valueDiagnosa){
 		$nDiagnosa = 0;
 		foreach($dataSets as $dataSet){
@@ -80,23 +80,23 @@ if($_GET){
 			}
 		}
 
-		$pCi = array(
+		$pCi = [
 			"diagnosa" => $valueDiagnosa,
 			"n_diagnosa" => $nDiagnosa,
 			"p_diagnosa" => $nDiagnosa / $nData,
-		);
-		array_push($pCis, $pCi);
+		];
+		$pCis[] = $pCi;
 	}
 
 	/**
 	 * P(X|Ci)*P(Ci)
 	 */
-	$resNBs = array();
+	$resNBs = [];
 	foreach($pCis as $pCi){
 		/**
 		 * P(X|Ci)
 		 */
-		$pXCis = array();
+		$pXCis = [];
 		$pIndikatorDiagnosa = 1;
 		foreach($dataIndikators as $keyIndikator => $valueIndikator){
 			if(isset($_GET['indikator_'.$keyIndikator])){
@@ -107,23 +107,23 @@ if($_GET){
 					}
 				}
 
-				$pXCi = array(
+				$pXCi = [
 					"n_indikator_diagnosa" => $nIndikatorDiagnosa,
 					"n_diagnosa" => $pCi['n_diagnosa'],
 					"p_indikator_diagnosa" => $nIndikatorDiagnosa / $pCi['n_diagnosa'],
-				);
-				array_push($pXCis, $pXCi);
+				];
+				$pXCis[] = $pXCi;
 				
 				$pIndikatorDiagnosa = $pIndikatorDiagnosa * $pXCi['p_indikator_diagnosa'];
 			}
 		}
-		$resNB = array(
+		$resNB = [
 			"p_xci" => $pXCis,
 			"p_ci" => $pCi,
 			"p_indikator_diagnosa" => $pIndikatorDiagnosa,
 			"p_xci_p_ci" => $pIndikatorDiagnosa * $pCi['p_diagnosa'],
-		);
-		array_push($resNBs, $resNB);
+		];
+		$resNBs[] = $resNB;
 	}
 
 	$p_xci_p_ci = array_column($resNBs, 'p_xci_p_ci');
@@ -156,7 +156,7 @@ echo "
 echo "
 </table>
 <hr/>
-<form action='naivebayes2.php' method='get'>
+<form action='naivebayes.php' method='get'>
 	<h2>Testing Data</h2>
 	<table>";
 	foreach($dataIndikators as $keyIndikator => $valueIndikator){
