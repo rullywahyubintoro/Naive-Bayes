@@ -156,7 +156,7 @@ echo "
 echo "
 </table>
 <hr/>
-<form action='naivebayes.php' method='get'>
+<form action='naivebayes2.php' method='get'>
 	<h2>Testing Data</h2>
 	<table>";
 	foreach($dataIndikators as $keyIndikator => $valueIndikator){
